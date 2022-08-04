@@ -952,6 +952,12 @@ video {
   --tw-ring-offset-color: #1f2937;
 }
 
+@media (max-width: 640px) {
+  .login{
+    display: none;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:static {
     position: static;
@@ -992,6 +998,7 @@ video {
   .sm\:pr-0 {
     padding-right: 0px;
   }
+
 }
 
 @media (min-width: 1024px) {
