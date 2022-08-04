@@ -158,8 +158,8 @@ button.logout:hover,
 }
 
 .sign-in{
-  background: #0066ff;
-  color: rgb(255, 255, 255);
+  background: #000000;
+  color: rgb(247, 180, 23);
   border: 1px solid rgba(0, 0, 0, 0.175);
   border-radius: 10px;
   padding: 12px 0;
@@ -176,7 +176,7 @@ button.logout:hover,
 
 .sign-up{
   /* background: #97c1ff; */
-  color: rgb(0, 0, 0);
+  color: rgb(39, 39, 39);
   border: 0;
   border-radius: 10px;
   padding: 12px 0;
