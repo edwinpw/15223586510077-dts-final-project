@@ -1,18 +1,8 @@
 import {useContext} from 'react';
-// import Login from './Login';
 import { Fragment } from 'react'
-import {useNavigate} from 'react-router-dom';
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-// import {UserContext} from '../context/UserContext'
 import {UserContext} from '../context/UserContext';
 import Navbar from './Navbar';
 
-
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 const Home = () => {
 
