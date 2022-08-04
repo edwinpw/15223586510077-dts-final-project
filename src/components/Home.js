@@ -19,10 +19,63 @@ const Home = () => {
         <>
         <Navbar/>
 
+        <div class="main_slider" >
+              <div class="container fill_hight">
+                <div class="row align-items-center fill_hight">
+                  <div class="col">
+                    <div class="main_slider_content">
+                      <h6>Spring / Summer Collection 2021</h6>
+                      <h1>Get Up to 30% Off New Arrivals</h1>
+                      <div class="red_button shop_now_button"><a href="#">Shop Now</a></div>	
+                    </div>
+                  </div>	
+                </div>
+              </div>
+            </div>
+
+            {/* Deal of the week */}
+		<div class="deal_ofthe_week">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="deal_ofthe_week_img">
+							<img src="assets/images/deal_ofthe_week.png" alt=""/>
+						</div>
+					</div>	
+					<div class="col-lg-6 text-right deal_ofthe_week_col">
+						<div class="deal_ofthe_week_content d-flex flex-column align-items-center float-right">
+							<div class="section_title">
+								<h2>Deal Of The Week</h2>
+							</div>
+							<ul class="timer">
+								<li class="d-inline-flex flex-column justify-content-center align-items-center">
+									<div id="day" class="timer_num">03</div>
+									<div class="timer_unit">Day</div>	
+								</li>
+								<li class="d-inline-flex flex-column justify-content-center align-items-center">
+									<div id="hour" class="timer_num">15</div>
+									<div class="timer_unit">Hours</div>	
+								</li>
+								<li class="d-inline-flex flex-column justify-content-center align-items-center">
+									<div id="minute" class="timer_num">45</div>
+									<div class="timer_unit">Mins</div>	
+								</li>
+								<li class="d-inline-flex flex-column justify-content-center align-items-center">
+									<div id="second" class="timer_num">23</div>
+									<div class="timer_unit">Sec</div>	
+								</li>
+							</ul>
+							<div class="red_button deal_ofthe_week_button"><a href="#">Show Now</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
             {user &&
             <>
             {/* list foto */}
-            <section className="categories">
+            {/* <section className="categories">
             <div className="container-fluid">
             <div className="row">
             <div className="col-lg-6 p-0">
@@ -77,7 +130,7 @@ const Home = () => {
             </div>
             </div>
             </div>
-            </section>
+            </section> */}
             
             
             <section className="product spad">
@@ -486,7 +539,7 @@ const Home = () => {
           }
             
             
-            <section className="discount">
+            {/* <section className="discount">
             <div className="container">
             <div className="row">
             <div className="col-lg-6 p-0">
@@ -524,7 +577,7 @@ const Home = () => {
             </div>
             </div>
             </div>
-            </section>
+            </section> */}
             
             
             <section className="services spad">

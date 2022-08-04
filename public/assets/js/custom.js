@@ -92,7 +92,7 @@ jQuery(document).ready(function($){
         if($('.timer').length){
 
             //uncomment line below and replace date
-            var target_date = new Date("August 30, 2021").getTime();
+            var target_date = new Date("August 10, 2022").getTime();
 
             //comment line below
             // var date = new Date();

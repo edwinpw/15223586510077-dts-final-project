@@ -368,7 +368,8 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    margin-top: 100px;
+    margin-top: 63px;
+    background-image:url(../images/slider_1.jpg);
 }
 
 .main_slider_content{
