@@ -2,6 +2,7 @@ import {useContext} from 'react';
 import { Fragment } from 'react'
 import {UserContext} from '../context/UserContext';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         // </div>   
         // <Navbar/>
         <>
+		<div className="super_container">
         <Navbar/>
 
         <div className="main_slider" >
@@ -132,408 +134,216 @@ const Home = () => {
             </div>
             </section> */}
             
-            
-            <section className="product spad">
-            <div className="container">
-            <div className="row">
-            <div className="col-lg-4 col-md-4">
-            <div className="section-title">
-            <h4>New product</h4>
-            </div>
-            </div>
-            <div className="col-lg-8 col-md-8">
-            </div>
-            </div>
-            <div className="row property__gallery">
-            <div className="col-lg-3 col-md-4 col-sm-6 mix">
-            <div className="product__item">
-            <div className="product__item__pic set-bg" data-setbg="assets/img/product/product-1.jpg">
-            <div className="label new">New</div>
-            <ul className="product__hover">
-            <li><a href="assets/img/product/product-1.jpg" className="image-popup"><span className="arrow_expand"></span></a></li>
-            <li><a href="#"><span className="icon_heart_alt"></span></a></li>
-            <li><a href="#"><span className="icon_bag_alt"></span></a></li>
-            </ul>
-            </div>
-            <div className="product__item__text">
-            <h6><a href="#">Buttons tweed blazer</a></h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 mix">
-            <div className="product__item">
-            <div className="product__item__pic set-bg" data-setbg="assets/img/product/product-2.jpg">
-            <ul className="product__hover">
-            <li><a href="assets/img/product/product-2.jpg" className="image-popup"><span className="arrow_expand"></span></a></li>
-            <li><a href="#"><span className="icon_heart_alt"></span></a></li>
-            <li><a href="#"><span className="icon_bag_alt"></span></a></li>
-            </ul>
-            </div>
-            <div className="product__item__text">
-            <h6><a href="#">Flowy striped skirt</a></h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 49.0</div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 mix">
-            <div className="product__item">
-            <div className="product__item__pic set-bg" data-setbg="assets/img/product/product-3.jpg">
-            <div className="label stockout">out of stock</div>
-            <ul className="product__hover">
-            <li><a href="assets/img/product/product-3.jpg" className="image-popup"><span className="arrow_expand"></span></a></li>
-            <li><a href="#"><span className="icon_heart_alt"></span></a></li>
-            <li><a href="#"><span className="icon_bag_alt"></span></a></li>
-            </ul>
-            </div>
-            <div className="product__item__text">
-            <h6><a href="#">Cotton T-Shirt</a></h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 mix">
-            <div className="product__item">
-            <div className="product__item__pic set-bg" data-setbg="assets/img/product/product-4.jpg">
-            <ul className="product__hover">
-            <li><a href="assets/img/product/product-4.jpg" className="image-popup"><span className="arrow_expand"></span></a></li>
-            <li><a href="#"><span className="icon_heart_alt"></span></a></li>
-            <li><a href="#"><span className="icon_bag_alt"></span></a></li>
-            </ul>
-            </div>
-            <div className="product__item__text">
-            <h6><a href="#">Slim striped pocket shirt</a></h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 mix">
-            <div className="product__item">
-            <div className="product__item__pic set-bg" data-setbg="assets/img/product/product-5.jpg">
-            <ul className="product__hover">
-            <li><a href="assets/img/product/product-5.jpg" className="image-popup"><span className="arrow_expand"></span></a></li>
-            <li><a href="#"><span className="icon_heart_alt"></span></a></li>
-            <li><a href="#"><span className="icon_bag_alt"></span></a></li>
-            </ul>
-            </div>
-            <div className="product__item__text">
-            <h6><a href="#">Fit micro corduroy shirt</a></h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 mix women men kid accessories cosmetic">
-            <div className="product__item sale">
-            <div className="product__item__pic set-bg" data-setbg="assets/img/product/product-6.jpg">
-            <div className="label sale">Sale</div>
-            <ul className="product__hover">
-            <li><a href="assets/img/product/product-6.jpg" className="image-popup"><span className="arrow_expand"></span></a></li>
-            <li><a href="#"><span className="icon_heart_alt"></span></a></li>
-            <li><a href="#"><span className="icon_bag_alt"></span></a></li>
-            </ul>
-            </div>
-            <div className="product__item__text">
-            <h6><a href="#">Tropical Kimono</a></h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 49.0 <span>$ 59.0</span></div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 mix women men kid accessories cosmetic">
-            <div className="product__item">
-            <div className="product__item__pic set-bg" data-setbg="assets/img/product/product-7.jpg">
-            <ul className="product__hover">
-            <li><a href="assets/img/product/product-7.jpg" className="image-popup"><span className="arrow_expand"></span></a></li>
-            <li><a href="#"><span className="icon_heart_alt"></span></a></li>
-            <li><a href="#"><span className="icon_bag_alt"></span></a></li>
-            </ul>
-            </div>
-            <div className="product__item__text">
-            <h6><a href="#">Contrasting sunglasses</a></h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 mix women men kid accessories cosmetic">
-            <div className="product__item sale">
-            <div className="product__item__pic set-bg" data-setbg="assets/img/product/product-8.jpg">
-            <div className="label">Sale</div>
-            <ul className="product__hover">
-            <li><a href="assets/img/product/product-8.jpg" className="image-popup"><span className="arrow_expand"></span></a></li>
-            <li><a href="#"><span className="icon_heart_alt"></span></a></li>
-            <li><a href="#"><span className="icon_bag_alt"></span></a></li>
-            </ul>
-            </div>
-            <div className="product__item__text">
-            <h6><a href="#">Water resistant backpack</a></h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 49.0 <span>$ 59.0</span></div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </section> 
-
-            
-            <section className="banner set-bg" data-setbg="assets/img/banner/banner-1.jpg">
-            <div className="container">
-            <div className="row">
-            <div className="col-xl-7 col-lg-8 m-auto">
-            <div className="banner__slider owl-carousel">
-            <div className="banner__item">
-            <div className="banner__text">
-            <span>The Chloe Collection</span>
-            <h1>The Project Jacket</h1>
-            <a href="#">Shop now</a>
-            </div>
-            </div>
-            <div className="banner__item">
-            <div className="banner__text">
-            <span>The Chloe Collection</span>
-            <h1>The Project Jacket</h1>
-            <a href="#">Shop now</a>
-            </div>
-            </div>
-            <div className="banner__item">
-            <div className="banner__text">
-            <span>The Chloe Collection</span>
-            <h1>The Project Jacket</h1>
-            <a href="#">Shop now</a>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </section>
-            
-            
-           <section className="trend spad">
-            <div className="container">
-            <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-6">
-            <div className="trend__content">
-            <div className="section-title">
-            <h4>Hot Trend</h4>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/ht-1.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Chain bucket bag</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/ht-2.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Pendant earrings</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/ht-3.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Cotton T-Shirt</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-            <div className="trend__content">
-            <div className="section-title">
-            <h4>Best seller</h4>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/bs-1.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Cotton T-Shirt</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/bs-2.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Zip-pockets pebbled tote <br />briefcase</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/bs-3.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Round leather bag</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-            <div className="trend__content">
-            <div className="section-title">
-            <h4>Feature</h4>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/f-1.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Bow wrap skirt</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/f-2.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Metallic earrings</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            <div className="trend__item">
-            <div className="trend__item__pic">
-            <img src="assets/img/trend/f-3.jpg" alt="" />
-            </div>
-            <div className="trend__item__text">
-            <h6>Flap cross-body bag</h6>
-            <div className="rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            </div>
-            <div className="product__price">$ 59.0</div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </section>
+ 
+    {/* <!-- Best Seller --> */}
+		<div className="best_sellers">
+			<div className="container">
+				<div className="row">
+					<div className="col text-center">
+						<div className="section_title new_arrivals_title">
+							<h2>Best Sellers</h2>
+						</div>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col">
+						<div className="product_slider_container">
+							<div className="owl-carousel owl-theme product_slider">
+								{/* <!-- Slider 1 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item men">
+										<div className="product discount product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_1.png" alt=""/>
+											</div>
+											<div className="favorite favorite_left"></div>
+											<div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<span>-Rp 200</span>
+											</div>	
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000<span>Rp 53000</span></div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>
+								</div>
+								{/* <!-- Slider 2 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item men">
+										<div className="product product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_2.png" alt=""/>
+											</div>
+											<div className="favorite"></div>
+											<div className="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center">
+												<span>New</span>
+											</div>	
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000<span>Rp 53000</span></div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>
+								</div>
+								{/* <!-- Slider 3 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item women">
+										<div className="product product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_3.png" alt=""/>
+											</div>
+											<div className="favorite"></div>
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000</div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>
+								</div>
+								{/* <!-- Slider 4 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item accessories">
+										<div className="product product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_4.png" alt=""/>
+											</div>
+											<div className="favorite favorite_left"></div>
+											<div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<span>Sales</span>
+											</div>	
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000</div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>	
+								</div>
+								{/* <!-- Slider 5 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item women men">
+										<div className="product product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_5.png" alt=""/>
+											</div>
+											<div className="favorite favorite_left"></div>	
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000<span>Rp 53000</span></div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>
+								</div>
+								{/* <!-- Slider 6 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item accessories">
+										<div className="product discount product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_6.png" alt=""/>
+											</div>
+											<div className="favorite favorite_left"></div>
+											<div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<span>-Rp 200</span>
+											</div>	
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000<span>Rp 53000</span></div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>
+								</div>
+								{/* <!-- Slider 7 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item women">
+										<div className="product discount product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_7.png" alt=""/>
+											</div>
+											<div className="favorite favorite_left"></div>
+											<div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<span>-Rp 200</span>
+											</div>	
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000<span>Rp 53000</span></div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>
+								</div>
+								{/* <!-- Slider 8 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item women">
+										<div className="product discount product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_8.png" alt=""/>
+											</div>
+											<div className="favorite favorite_left"></div>
+											<div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<span>-Rp 200</span>
+											</div>	
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000<span>Rp 53000</span></div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>
+								</div>
+								{/* <!-- Slider 9 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item men">
+										<div className="product discount product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_9.png" alt=""/>
+											</div>
+											<div className="favorite favorite_left"></div>
+											<div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<span>-Rp 200</span>
+											</div>	
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000<span>Rp 53000</span></div>	
+											</div>
+										</div>
+										<div className="red_button add_to_chart_button"><a href="#">add to chart</a></div>
+									</div>
+								</div>
+								{/* <!-- Slider 10 --> */}
+								<div className="owl-item product_slider_item">
+									<div className="product-item men">
+										<div className="product discount product_filter">
+											<div className="product_image">
+												<img src="assets/images/product_10.png" alt=""/>
+											</div>
+											<div className="favorite favorite_left"></div>
+				
+											<div className="product_info">
+												<h6 className="product_name"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h6>
+												<div className="product_price">Rp 52000<span>Rp 53000</span></div>	
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							{/* <!-- slider navigation --> */}
+							<div className="product_slider_nav_left product_slider_nav d-flex align-items-center justify-content-center flex-column">
+								<i className="fa fa-chevron-left" aria-hidden="true"></i>
+							</div>
+							<div className="product_slider_nav_right product_slider_nav d-flex align-items-center justify-content-center flex-column">
+								<i className="fa fa-chevron-right" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
             </>
             // END USER
           }
@@ -579,124 +389,12 @@ const Home = () => {
             </div>
             </section> */}
             
-            
-            <section className="services spad">
-            <div className="container">
-            <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6">
-            <div className="services__item">
-            <i className="fa fa-car"></i>
-            <h6>Free Shipping</h6>
-            <p>For all order</p>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6">
-            <div className="services__item">
-            <i className="fa fa-money"></i>
-            <h6>Money Back Guarantee</h6>
-            <p>If good not authentic</p>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6">
-            <div className="services__item">
-            <i className="fa fa-support"></i>
-            <h6>Online Support 24/7</h6>
-            <p>Dedicated support</p>
-            </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6">
-            <div className="services__item">
-            <i className="fa fa-headphones"></i>
-            <h6>Payment Secure</h6>
-            <p>100% secure payment</p>
-            </div>
-            </div>
-            </div>
-            </div>
-            </section>
-            
-            
-            <footer className="footer">
-            <div className="container">
-            <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-7">
-            <div className="footer__about">
-            {/* <div className="footer__logo">
-            <a href="#"><img src="assets/img/logo.png" alt="" /></a>
-            </div> */}
-            <p>Hypesupp adalah sebuah toko online yang menjual barang-barang branded dengan pilihan macam yang banyak. Mulai dari baju,sepatu hingga tas</p>
-            <div className="footer__payment">
-            <a href="#"><img src="assets/img/payment/payment-1.png" alt="" /></a>
-            <a href="#"><img src="assets/img/payment/payment-2.png" alt="" /></a>
-            <a href="#"><img src="assets/img/payment/payment-3.png" alt="" /></a>
-            <a href="#"><img src="assets/img/payment/payment-4.png" alt="" /></a>
-            <a href="#"><img src="assets/img/payment/payment-5.png" alt="" /></a>
-            </div>
-            </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-5">
-            <div className="footer__widget">
-            <h6>Quick links</h6>
-            <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
-            </ul>
-            </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4">
-            <div className="footer__widget">
-            <h6>Account</h6>
-            <ul>
-            <li><a href="#">My Account</a></li>
-            <li><a href="#">Orders Tracking</a></li>
-            <li><a href="#">Checkout</a></li>
-            <li><a href="#">Wishlist</a></li>
-            </ul>
-            </div>
-            </div>
-            <div className="col-lg-4 col-md-8 col-sm-8">
-            <div className="footer__newslatter">
-            <h6>NEWSLETTER</h6>
-            <form action="#">
-            <input type="text" placeholder="Email" />
-            <button type="submit" className="site-btn">Subscribe</button>
-            </form>
-            <div className="footer__social">
-            <a href="#"><i className="fa fa-facebook"></i></a>
-            <a href="#"><i className="fa fa-twitter"></i></a>
-            <a href="#"><i className="fa fa-youtube-play"></i></a>
-            <a href="#"><i className="fa fa-instagram"></i></a>
-            <a href="#"><i className="fa fa-pinterest"></i></a>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div className="row">
-            <div className="col-lg-12">
-            
-            <div className="footer__copyright__text">
-            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | © Hype Supp 2022</p>
-            </div>
-            
-            </div>
-            </div>
-            </div>
-            </footer>
-            
-            
-            <div className="search-model">
-            <div className="h-100 d-flex align-items-center justify-content-center">
-            <div className="search-close-switch">+</div>
-            <form className="search-model-form">
-            <input type="text" id="search-input" placeholder="Search here....." />
-            </form>
-            </div>
-            </div>
+
+
+			<Footer/>
 
             <a className="wa-top" href="https://api.whatsapp.com/send?phone=6282291336198" target="_blank"><input className="wa" type="image" src="assets/images/wa.png"/></a>
-           
+			</div>
             </>
     )
 }
